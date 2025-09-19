@@ -13,7 +13,7 @@ export default function SalesIntelligenceHub() {
   const [activeSection, setActiveSection] = useState('dashboard')
   const [searchQuery, setSearchQuery] = useState('')
   const [sidebarOpen, setSidebarOpen] = useState(true)
-  const [selectedProblem, setSelectedProblem] = useState(null)
+  const [selectedProblem, setSelectedProblem] = useState<string | null>(null)
   const [selectedPersona, setSelectedPersona] = useState('all')
 
   const menuItems = [
